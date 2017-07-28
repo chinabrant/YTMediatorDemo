@@ -10,6 +10,6 @@
 
 @protocol YTModuleProtocol <NSObject>
 
-+ (void)
++ (void)registerModule;
 
 @end

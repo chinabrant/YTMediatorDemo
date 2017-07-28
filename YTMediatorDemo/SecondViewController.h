@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YTMediator.h"
 
 @interface SecondViewController : UIViewController
+
+@property (nonatomic, copy) void (^handler)(id result); // handler;
 
 @end

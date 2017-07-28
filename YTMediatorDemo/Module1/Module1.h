@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YTModuleProtocol.h"
 
-@interface Module1 : NSObject
+@interface Module1 : NSObject <YTModuleProtocol>
 
 @end

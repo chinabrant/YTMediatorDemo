@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "YTMediator.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "Module1.h"
+#import "Module2.h"
+#import "MainModule.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +22,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [YTMediator setup:self];
+    
+    
+    
     return YES;
 }
 
